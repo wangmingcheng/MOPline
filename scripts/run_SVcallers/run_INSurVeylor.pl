@@ -85,7 +85,7 @@ if ($MOP_dir ne ''){
     system ("$MOP_dir/scripts/run_SVcallers/convert_INSurVeylor_vcf.pl out.pass.vcf.gz $non_human > INSurVeylor.$out_prefix.vcf");
 }
 else{
-  system ("$Bin/convert_INSurVeylor_vcf.pl out.pass.vcf.gz $non_human > INSurVeylor.$out_prefix.vcf");
+  system ("$Bin/convert_INSurVeyor_vcf.pl out.pass.vcf.gz $non_human > INSurVeylor.$out_prefix.vcf");
 }
 
 print STDERR "INSurVeylor run was completed\n";
